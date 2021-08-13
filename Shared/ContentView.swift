@@ -26,6 +26,7 @@ struct ContentView: View {
                 .background(Color.gray)
             }
             VStack(alignment: .leading) {
+                Text("Inner aspect ratio:")
                 HStack {
                     TextField("Width", value: $width, formatter: ContentView.formatter)
                         .textFieldStyle(.roundedBorder)
